@@ -110,7 +110,7 @@ install_hacker_tools(){
     echo "|     | .'|  _| '_| -_|  _|    | | | . | . | |_ -|"
     echo "|__|__|__,|___|_,_|___|_|      |_| |___|___|_|___|"
     printf "${WHITE}"
-    yay --needed --noconfirm -S aircrack-ng binwalk burpsuite enum4linux gobuster hash-identifier hashcat hydra jonn maltego metasplit nikto nmap perl-image-exiftool sqlmap steghide stegsolve tor tor-browser-en torsocks whireshark wpscan zsteg proxychains-ng
+    yay --needed --noconfirm -S aircrack-ng binwalk burpsuite enum4linux gobuster hash-identifier hashcat hydra john maltego metasploit nikto nmap perl-image-exiftool sqlmap steghide stegsolve tor tor-browser-en torsocks wireshark wpscan zsteg proxychains-ng
 }
 
 installation() {
